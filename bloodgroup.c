@@ -25,7 +25,9 @@ void main()
     if (strcmp(G,"A") ==0)
     {
       printf("%s, A. Hey, you can give blood to: A, AB.\n", Name);
-      printf("  You can receive blood from: A -0-, O.\n");
+
+      printf("  You can receive blood from: A Najaaa, O.\n");
+
     }
     else if (strcmp(G, "B") ==0)
     {
@@ -46,4 +48,5 @@ void main()
     scanf("%s", answer);
   } while (strcmp(answer, "YES") == 0);
   printf("Goodbye!!!\n");
+
 }
